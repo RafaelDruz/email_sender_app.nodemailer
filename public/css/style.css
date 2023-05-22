@@ -1,0 +1,74 @@
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(112, 111, 111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.LoginForm {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  width: 400px;
+}
+.LoginForm .heading {
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.LoginForm label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.LoginForm .head {
+  font-size: 15px;
+}
+.LoginForm .box {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 2rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+.LoginForm #my-form-button {
+  background-color: #274be9;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 15rem;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+.LoginForm #my-form-button:hover {
+  background-color: #526eeb;
+}
+.LoginForm .inf_status {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.LoginForm h3 {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
